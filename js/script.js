@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 
 
 // const answer = +prompt("Тебе есть 18");
@@ -126,4 +126,43 @@
 // console.log(personalMovieDB);
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// var num = 20;
+
+// function showFirstMessage(text) {
+//     let num = 10;
+// }
+
+// showFirstMessage("Hello World 2021");
+// console.log(num);
+
+// function calc(a,b) {
+//     return (a + b);
+// }
+
+// console.log(calc(5,3));
+// console.log(calc(10,3));
+
+
+// // функция дикларативная
+// function ret() {
+//     let num = 55;
+//     //
+//     return num;
+// }
+// const anotherNum = ret();
+// console.log(anotherNum);
+
+
+// // функция экспесс
+// const func01 = function () {
+//         console.log('Привет');
+// };
+
+// func01();
+
+const calc = (a, b) => {
+    console.log('1');
+    return a + b;
+};
 
