@@ -83,3 +83,47 @@
 // }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
+
+// const personalMovieDB = {
+//         count: numberOfFilms,
+//         movies: {},
+//         action: {},
+//         genres: [],
+//         privat: false
+// };
+
+
+
+// for (let i = 0; i < 2; i++) {
+//     const a = prompt("Один из последних просмотренных фильмов?", ""),
+//           b = prompt("На сколько оцените его?", "");
+
+//           if (a != null && a != '' && b != null && b != '' && a.length < 10) {
+//                  personalMovieDB.movies[a] = b;
+//                  console.log('Условие выполнилось успешно по добовлению!');
+//           } else {
+//               console.log('error');
+//               i--;
+//           } 
+// }
+
+
+// if (personalMovieDB.count < 10) {
+//     console.log("Просмотренно мало фильмов");
+// } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+//     console.log("Вы классический зритель");
+// } else if (personalMovieDB.count >= 30) {
+//     console.log("Вы киноман!!!"); 
+// } else {
+//     console.log("Произошла ошибка!");
+// }
+
+// (personalMovieDB.count < 10) ? console.log("Просмотренно мало фильмов") 
+// (personalMovieDB.count >= 10 && personalMovieDB.count < 30) ? console.log("Вы классический зритель")
+// (personalMovieDB.count >= 30) ? console.log("Вы киноман!!!") : console.log("Произошла ошибка!")
+
+// console.log(personalMovieDB);
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
