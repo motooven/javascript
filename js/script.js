@@ -641,6 +641,85 @@
 //     console.log("Workingggg...");
 // }
 
-console.log(typeof(Boolean('4')));
+// console.log(typeof(Boolean('4')));
 
-console.log(typeof(!!"44444"));
+// console.log(typeof(!!"44444"));
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// let sum = [] + false - null + true;
+// // console.log(sum);
+// console.log([] + 1 + 2);
+
+ 
+// alert("1"[0]);
+
+// && всегда запинаеться на первой лжи 
+// || всегда запинаеться на первой истене
+
+// const a = [1,2,3];
+// const b = [1,2,3];
+// console.log( a == b );
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// const box = document.getElementById('box');
+
+// console.log(box);
+
+// const btns = document.getElementsByTagName('button');
+
+// console.log(btns[0]);
+
+// 
+
+// console.log(circles);
+
+
+
+// hearts.forEach(elements => {
+//     console.log(elements);
+// });
+
+// const oneHeart = document.querySelector('.heart');
+// console.log(oneHeart);
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+const box = document.getElementById("box");
+const btns = document.getElementsByTagName('button');
+const circle = document.getElementsByClassName('circle');
+
+const hearts = document.querySelectorAll('.heart');
+const circles = document.getElementsByClassName('circle');
+
+// box.style.backgroundColor = 'blue';
+// box.style.width = '200px';
+// box.style.height = '50px';
+
+btns[1].style.borderRadius = '100%';
+circle[0].style.backgroundColor = 'red';
+box.style.cssText = 'background-color: green; width: 200px';
+
+
+// for (let i = 0; i < hearts.length; i++) {
+//     hearts[i].style.backgroundColor = 'red';
+// }
+
+hearts.forEach( i => {
+    i.style.backgroundColor = 'yellow';
+});
+
+
+const div = document.createElement('div');
+const text = document.createTextNode('Тут был я');
+
+div.classList.add('black');
+
+const wrapper = document.querySelector('.wrapper');
+
+// wrapper.append(div);
+
+// wrapper.prepend(div);
+
+//circles[1].remove();
+
+hearts[0].replaceWith(circles[1]);
